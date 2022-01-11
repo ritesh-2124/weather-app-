@@ -1,0 +1,100 @@
+body{
+    background-image: url("https://images.pexels.com/photos/1054198/pexels-photo-1054198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    
+}
+#mainframe{
+    display: flex;
+}
+#map{
+    height: 400px;
+    width:30%;
+    margin-left: 23%;
+    margin-top: 2%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+#data{
+    height: 400px;
+    width: 40%;
+
+    margin-left: 5%;
+    margin-top: 2%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background-color: rgba(0, 0, 0, 0.56);
+}
+#temp, #wind{
+    display: flex;
+    height: 50px;
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 80%;
+    margin-left: 4%;
+    justify-content: space-between;
+    padding: 0 30px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+#sevenday{
+    height: 150px;
+    width: 86%;
+    display: flex;
+    padding: 0 10px;
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-left: 4%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+#rise, #icon{
+    height: 60%;
+    width: 40%;
+    margin-top: 5%;
+    font-size: 10px;
+    padding-top: 20px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+#icon{
+    background-color: rgba(151, 146, 146, 0.56);
+    border-radius: 50%;
+}
+h2{
+    margin-top: 0;
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#sevendaydata{
+    display: flex;
+}
+#sevendaydata>div{
+
+    margin-left: 65px;
+    margin-top: 20px;
+    height: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 150px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background-color: rgba(0, 0, 0, 0.56);
+}
+input{
+    
+    height: 40px;
+    width: 85%;
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 2px solid red;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+button{
+    padding:  2px 40px;
+    background-color: rgba(0, 0, 0,0.66);
+    color: white;
+    font-size: 30px;
+}
